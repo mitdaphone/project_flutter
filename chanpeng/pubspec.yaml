@@ -1,0 +1,43 @@
+name: product_app
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  font_awesome_flutter: ^10.1.0
+  cupertino_icons: ^1.0.6
+  http: ^1.2.2 # Updated version
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # assets:
+    # - assets/images/goku.jpeg
+    # - assets/images/long.jpeg
+    # - assets/images/short.jpeg
+    # - assets/images/tshirt.jpeg
+    # - assets/images/yean.jpeg
+    # - assets/images/kon.jpeg
+    # - assets/images/sikue.jpeg
+    # - assets/images/sikue.png
+    # - assets/images/address.jpg
+    # - assets/images/teacher.png
+    # - assets/images/qr.png
+    # - assets/images/max.jpeg
+    # - assets/images/vad.jpeg
+
+  fonts:
+    - family: PhetsarathOT
+      fonts:
+        - asset: assets/fonts/PhetsarathOT.ttf
